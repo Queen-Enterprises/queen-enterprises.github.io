@@ -1,14 +1,14 @@
 /**
  * @name Discord Sur Source Code
  * @author PlusInsta -> modified by AvaQueen
- * @authorLink https://plusinsta.carrd.co
+ * @authorLink https://github.com/AvaQueen-Official
  * @version 0.0.1
- * @description Source code for Discord Sur. Thank you PlusInsta for the theme!
- * @website https://plusinsta.github.io/discord-plus
+ * @description Source code for Discord Sur. Thank you PlusInsta for the original theme!
+ * @website https://github.com/AvaQueen-Official/Discord-Sur
  * @source https://raw.githubusercontent.com/Queen-Enterprises/queen-enterprises.github.io/main/DiscordSur.theme.css
- * @invite 2Jwh2nS
+ * @invite https://discord.gg/5AQjAnNKYd
 */
-@import url(//fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
+@import url(//fonts.googleapis.com/css?family=GFS+Didot|Noto+Serif|Poppins:400,700|PT+Sans|Roboto:400,700|Righteous);
 :root {
 	--dplus-background: url(//i.imgur.com/3AiL3yN.png);
 	--dplus-accent-color: #802060;
