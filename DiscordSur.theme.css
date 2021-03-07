@@ -1,14 +1,18 @@
-
 /**
  * @name Discord Sur Source Code
  * @author PlusInsta -> modified by AvaQueen
+ * @authorLink https://plusinsta.carrd.co
  * @authorLink https://github.com/AvaQueen-Official
  * @version 0.0.1
+ * @description Source code for Discord Sur. Thank you PlusInsta for the theme!
+ * @website https://plusinsta.github.io/discord-plus
  * @description Source code for Discord Sur. Thank you PlusInsta for the original theme!
  * @website https://github.com/AvaQueen-Official/Discord-Sur
  * @source https://raw.githubusercontent.com/Queen-Enterprises/queen-enterprises.github.io/main/DiscordSur.theme.css
+ * @invite 2Jwh2nS
  * @invite https://discord.gg/5AQjAnNKYd
 */
+@import url(//fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 @import url(//fonts.googleapis.com/css?family=GFS+Didot|Noto+Serif|Poppins:400,700|PT+Sans|Roboto:400,700|Righteous);
 :root {
 	--dplus-background: url(//i.imgur.com/3AiL3yN.png);
@@ -42,13 +46,11 @@
 	--dplus-bg-3: var(--dplus-bg-light-3);
 	--dplus-bg-4: var(--dplus-bg-light-4);
 }
-
 :root {
 	--blur-backdrop: 4px;
 	--blur-bgcover: 3px;
 	--blur-context: 2px;
 }
-
 /* Background image */
 #app-mount {
 	background: var(--dplus-background) !important;
@@ -74,7 +76,6 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .da-introHeader, .da-introBlurb, .da-planOption .da-button, .da-feature, .da-feature .da-description, .da-sectionTier1, .da-tier1Banner .da-planInfo, .da-sectionTier2, .da-subsectionHeader, .da-premiumFeaturesHeader, #user-settings .da-sidebar div:nth-child(8):not(.ui-tab-bar-item) {
 	font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
 }
-
 /* Core */
 /* Discord variables */
 .theme-dark {
@@ -125,7 +126,6 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	right:	15px !important;
 	top:		5px !important;
 }
-
 /*The loading page, in case you disconnect*/
 .container-16j22k { background-color: var(--dplus-bg-dark-1) }
 .quote-3aooyW {
@@ -146,7 +146,6 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	height: 24px;
 	width: 24px;
 }
-
 /* Login Page */
 .platform-win .splashBackground-1FRCko:before {display: none;}
 .rightSplit-2US0xy {opacity: 0;}
@@ -260,7 +259,6 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	line-height: 0;
 }
 .iconInactive-98JN5i {border-radius: var(--dplus-server-radius);}
-
 /* Popouts */
 .layer-v9HyYc > div, .popouts-2bnG9Z > div {
 	background-color: var(--dplus-bg-4);
@@ -381,7 +379,6 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	border: none !important;
 	max-height: 570px!important
 }
-
 .messageGroupWrapper-o-Zw7G {
 	border-radius: var(--dplus-ui-radius);
 	min-height: 70px;
@@ -415,7 +412,6 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 }
 .quickSelectPopoutOption-opKBx9 {border-radius: var(--dplus-ui-radius);}
 .quickSelectPopoutOption-opKBx9:hover, .quickSelectPopoutOption-opKBx9.selected {background-color: var(--dplus-accent-color);}
-
 /* Light theme stuff */
 .theme-light .emoji, .theme-light .emoji.jumboable {
   filter: drop-shadow(0 0 1px #00000055);
@@ -459,11 +455,9 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	background-position: 6px 4px !important;
 	height: 16px; width: 65px;
 	opacity: 0.6;
-
 }
 .theme-light .wordmark-2iDDfm {filter: brightness(0);}
 .theme-light .theme-dark .wordmark-2iDDfm {filter: none;}
-
 /* macOS window buttons */
 .typeMacOS-3EmCyP {
 	margin-left: 10px;
@@ -474,7 +468,6 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	margin-top: 0px !important;
 	padding-top: 32px;
 }
-
 /* Guilds list */
 		/* Home Icon */
 .homeIcon-tEMBK1 {display: none !important;}
@@ -502,7 +495,6 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	color: var(--dplus-accent-color);
 }
 .circleIconButton-jET_ig.selected-ugP_am {background-color: var(--dplus-accent-color);}
-
 	/* Server Discovery */
 .scroller-1d5FgU { padding: 16px !important; }
 #app-mount .guildIcon-3W0pfo { 
@@ -590,7 +582,6 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 #app-mount .popout-38lTFE {background: var(--dplus-bg-3)}
 .da-tabBar .da-item { transition: color .2s, background-color .2s; }
 .discriminator { transition: opacity .2s }
-
 /* Game Library + Nitro Tab */
 .playButton-1fMNjH, .actionButtonSize-1Znp1q:hover, .rowWrapperActive-2L7i9f button {
 	background-color: var(--dplus-accent-color)!important;
