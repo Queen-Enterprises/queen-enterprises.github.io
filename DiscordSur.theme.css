@@ -479,9 +479,10 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 .homeIcon-tEMBK1 {display: none !important;}
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { background-color: transparent;}
 .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9, .theme-light .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-	background: url('//queen-enterprises.github.io/Discord.icns');
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlPi5zdDF7ZGlzcGxheTppbmxpbmV9LnN0MSwuc3Qye2ZpbGw6I2ZmZn08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEgMUgxLjh2Mi42TDMuMyA1VjIuNWguOGMuNSAwIC44LjMuOC42VjVjMCAuNC0uMy43LS44LjdIMS44djEuNWgyLjNjMS4yIDAgMi40LS42IDIuNC0ydi0yQzYuNSAxLjcgNS4zIDEgNC4xIDF6TTEuOCA3LjRoMTIuNHYyLjdIMS44eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02LjcgMi42aDIuN1YxNUg2Ljd6Ii8+PC9zdmc+');
+}
 .theme-light .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-	background: url('//queen-enterprises.github.io/Discord.icns');
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlPi5zdDF7ZGlzcGxheTppbmxpbmV9LnN0MSwuc3Qye2ZpbGw6IzAwMH08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEgMUgxLjh2Mi42TDMuMyA1VjIuNWguOGMuNSAwIC44LjMuOC42VjVjMCAuNC0uMy43LS44LjdIMS44djEuNWgyLjNjMS4yIDAgMi40LS42IDIuNC0ydi0yQzYuNSAxLjcgNS4zIDEgNC4xIDF6TTEuOCA3LjRoMTIuNHYyLjdIMS44eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02LjcgMi42aDIuN1YxNUg2Ljd6Ii8+PC9zdmc+');
 }
 		/* List */
 .guilds-1SWlCJ foreignObject {mask: none;}
@@ -730,7 +731,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	/* New/Old/Load messages bar */
 .newMessagesBar-265mhP {
 	background-color: var(--dplus-accent-color) !important;
-	border-radius: 0 0 var(--dplus-ui-radius) var(--dplus-ui-radius) !important;
+	border-radius: 5 5 var(--dplus-ui-radius) var(--dplus-ui-radius) !important;
 	width: 100%;
 }	
 .newMessagesBar-265mhP button:first-child {
